@@ -1,0 +1,84 @@
+body {
+    font-family: 'Open Sans',sans-serif;
+    background-color: #000
+}
+
+
+
+
+
+/* set grid height */
+/* format detail cells */
+.item-header {
+    font-weight: 700;
+    font-size: 100%
+}
+
+.item-detail {
+    margin-left: 12px
+}
+
+.right {
+    display: inline-block;
+    padding: 20px
+}
+
+.left {
+    float: left;
+    width: 250px
+}
+
+.circular {
+    border-radius: 150px
+}
+.customGrid {
+    height: 100%;
+    padding: 20px
+}
+/* custom chart theme */
+.custom-flex-chart {
+    height: 700px;
+    width: 100%;
+    background: #fff;
+    border: none;
+    padding: 20px
+}
+
+.custom-flex-chart.wj-flexchart .wj-axis-x .wj-label,.custom-flex-chart.wj-flexchart .wj-legend .wj-label {
+    fill: #000
+}
+
+.custom-flex-chart.wj-flexchart .wj-legend > rect,.custom-flex-chart.wj-flexchart .wj-plot-area > rect {
+    fill: #fff;
+    stroke: #fff;
+}
+
+/* customize appearance of chart selection */
+.custom-flex-chart.wj-state-selected {
+    stroke-width: 6px;
+    fill: #000;
+    stroke: #000
+}
+
+.custom-flex-chart.wj-chart-linemarker {
+    background: rgba(42,42,42,0.8);
+    color: #000
+}
+
+.custom-flex-chart .wj-title {
+    font-weight: 700;
+        fill: #000;
+}
+
+.custom-flex-chart .wj-header .wj-title {
+    fill: #000;
+    font-size: 18pt
+}
+
+.custom-flex-chart .wj-footer .wj-title {
+    fill: #000
+}
+
+.custom-flex-chart .wj-axis-x .wj-title,.custom-flex-chart .wj-axis-y .wj-title {
+    font-style: italic
+}
